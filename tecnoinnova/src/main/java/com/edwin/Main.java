@@ -10,7 +10,7 @@ public class Main {
 
         do {
             if (validacion = false) {
-                System.out.println("Bienvenido\nRegistre su usuario aqui:\n bienvenido nuevamente");
+                System.out.println("Bienvenido\nRegistre su usuario aqui:");
                 String name = scanner.nextLine();
                 System.out.println("Registre su contraseña aqui:");
                 String passsword = scanner.nextLine();
