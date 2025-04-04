@@ -9,15 +9,15 @@ public class Main {
         boolean validacion;
 
         do {
-            if (validacion=false) {
-                System.out.println("Bienvenido\nRegistre su usuario aqui:");
+            if (validacion = false) {
+                System.out.println("Bienvenido\nRegistre su usuario aqui:\n bienvenido nuevamente");
                 String name = scanner.nextLine();
                 System.out.println("Registre su contraseña aqui:");
                 String passsword = scanner.nextLine();
                 usuario.autenticarUsuario(name, passsword);
                 usuario.validacion(name, passsword);
             }
-        } while (validacion=true);
+        } while (validacion = true);
 
         scanner.close();
     }
