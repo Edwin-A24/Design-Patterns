@@ -23,23 +23,16 @@ public class Usuario {
         return instance;
     }
 
-    public void autenticarUsuario(String name, String passsword) {
+    public boolean autenticarUsuario(String name, String passsword) {
 
         if (name.equals(nombre) && passsword.equals(contrasenia)) {
             System.out.println("Bienvenido al sistema TECNOINNOVA");
-        } else {
-            System.out.println("Error Acceso denegado al Sistema");
-        }
-    }
-    public boolean validacion(String name, String password){
-        if (name.equals(nombre) && password.equals(contrasenia)) {
             return true;
         } else {
+            System.out.println("Error Acceso denegado al Sistema");
             return false;
         }
-
     }
-
     public String getInformacion() {
         return "Nombre: " + nombre + " Contrasenia: " + contrasenia;
     }

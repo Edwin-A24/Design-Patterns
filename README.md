@@ -8,6 +8,10 @@ En el siguiente repositorio mostraré un par de ejemplos hechos por mi sobre el 
 
 Fachada es un tipo de patrón de diseño estructural. Viene motivado por la necesidad de estructurar un entorno de programación y reducir su complejidad con la división en subsistemas, minimizando las comunicaciones y dependencias entre estos.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3727427 ([Add] Hotel)
 💥 Patrón de diseño Singleton:
 
 En ingeniería de software, singleton o instancia única es un patrón de diseño que restringe la creación a un único objeto la creación de objetos pertenecientes a una clase y asegura de que sólo haya esta instancia única .
